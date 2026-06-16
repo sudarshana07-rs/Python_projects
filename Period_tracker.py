@@ -9,6 +9,8 @@ if (first_time== 'Yes'or first_time== "yes" or first_time=='Yes'):
 start_date=int(input("Enter the start date of last period: "))
 avg_cycle=int(input("Enter your average cycle length: "))
 period_duration=int(input("Enter your period duration: "))
-next_period= start_date + avg_cycle   # Next Period
+next_period= "10th next month"   # Next Period
 print(next_period)
+days_remaining= 30-start_date
+print(days_remaining)
  
