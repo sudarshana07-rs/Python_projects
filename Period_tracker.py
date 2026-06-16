@@ -1,1 +1,5 @@
 print("Period Calender💕💕💕")
+print("Your Cycle, Your Health ,Your Balance ❤️❤️❤️!!! ")
+name=input("Enter your dear name Girlie: ")
+print(f'{name} ❤️, Welcome to Period Calender!!!')
+age=int(input("Enter your age: "))
