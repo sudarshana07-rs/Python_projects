@@ -17,4 +17,7 @@ for i in range(list_no):
         print('Upadated List: ')
         for i in list:
             print(i)
-
+    elif(completed_task=='done'):
+        print("Task Completed")        
+    else:
+        print("OOOPs!!! not in list")
