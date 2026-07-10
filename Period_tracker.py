@@ -1,3 +1,4 @@
+from datetime import datetime,timedelta
 print("Period Calender💕💕💕")
 print("Your Cycle, Your Health ,Your Balance ❤️❤️❤️!!! ")
 name=input("Enter your dear name Girlie: ")
@@ -11,6 +12,6 @@ avg_cycle=int(input("Enter your average cycle length: "))
 period_duration=int(input("Enter your period duration: "))
 next_period= "10th next month"   # Next Period
 print(next_period)
-days_remaining= 30-start_date
+days_remaining= avg_cycle-start_date
 print(days_remaining)
  
